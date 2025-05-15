@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🌱 Harvest Habit - Gamify Your Daily Organisation
 
-## Getting Started
+ Harvest Habit is a productivity app that turns your daily tasks into a game. Complete Pomodoro sessions and check off to-dos to earn resources, build structures, and grow your own isometric world. NPCs with unique jobs generate materials over time, simulating a village economy - all powered by your real-world productivity.
 
-First, run the development server:
 
+## ✨ Features
+
+### ✅ Productivity
+- **To-Do List** – Organize and complete daily tasks
+- **Pomodoro Timer** – Boost focus with structured work sessions
+- **Daily Streaks** – Stay consistent and unlock rare in-game rewards
+
+### 🏗️ Game Mechanics
+- **Isometric Map** – Build a village from scratch on a tile-based map
+- **Resource Generation** – Earn materials (like wood, clay, wheat, etc.) by completing tasks or passively via buildings/NPCs
+- **Construction System** – Use materials to build farms, houses, and more
+- **NPC Simulation** – Assign workers to buildings to produce resources every few hours
+
+### 🧠 Powered By
+- AI-generated assets using **DALL·E** (for NPCs, buildings, materials)
+
+
+## 🧰 Tech Stack
+
+- **Next.js (App Router)**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui** (for UI components)
+- **Prisma + SQLite/PostgreSQL** 
+- **OpenAI API (DALL·E)** – for generating visual assets
+- **Vercel** (deployment)
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/tasktamer.git
+cd tasktamer
